@@ -1,0 +1,16 @@
+package com.exam;
+
+/*
+ * 		byte:	1byte 크기의 자료형.
+ * 				범위는 -128 ~ 127
+ */
+
+
+public class ByteEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

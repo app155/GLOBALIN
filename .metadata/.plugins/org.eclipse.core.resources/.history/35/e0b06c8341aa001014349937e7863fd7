@@ -1,0 +1,18 @@
+package com.exam;
+
+/*
+ * 		char:		2byte 문자 자료형. 정수형으로도 취급 가능.
+ * 
+ * 
+ */
+
+
+
+public class CharEx {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

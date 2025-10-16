@@ -1,0 +1,12 @@
+package com.exam;
+
+public class LongEx {
+
+	public static void main(String[] args) {
+		
+		long a, b;
+		a = 10l;
+
+	}
+
+}

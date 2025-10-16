@@ -1,0 +1,33 @@
+package com.exam;
+
+/*
+ * 		직사각형 넓이, 둘레
+ */
+
+public class Exam01 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 		변수 선언
+		 * 		변수란	:	수학에서 변수는 변하는 수
+		 * 					프로그래밍 언어에서의 변수
+		 * 						=> 값을 저장할 수 있는 메모리상의 공간을 의미
+		 * 						=> 단 하나의 값을 저장하는 메모리 공간
+		 * 
+		 * 
+		 */
+		
+		int w, h;
+		w = 10;
+		h = 20;
+		
+		int area = w * h;
+		int perimeter = (w + h) * 2;
+		
+		System.out.println("넓이: " + area);
+		System.out.println("둘레: " + perimeter);
+
+	}
+
+}

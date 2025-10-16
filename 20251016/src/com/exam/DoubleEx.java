@@ -1,0 +1,24 @@
+package com.exam;
+
+/*
+ * 			double : 실수형 8byte
+ */
+
+public class DoubleEx {
+
+	public static void main(String[] args) {
+		
+		double a, b, c;
+		
+		a = 1 / 2;		// 정수, 정수 계산 => 정수
+		System.out.println("double a = " + a);
+		
+		b = 1 / 2 + 1 / 2;
+		System.out.println("double b = " + b);
+		
+		c = 1 / 2.0;		// 정수, 실수 계산 => 실수
+		System.out.println("double c = " + c);
+
+	}
+
+}

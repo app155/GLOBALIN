@@ -1,0 +1,28 @@
+package com.exam;
+
+/*
+ * 		원 넓이, 둘레 구하는 프로그램 구현
+ */
+
+
+public class DoubleEx02 {
+
+	public static void main(String[] args) {
+		
+		int r = 5;
+		final double p = 3.141592;
+		
+		double a, b;
+		
+		a = r * r * p;
+		b = r * 2 * p;
+		
+		System.out.println("넓이 : " + a);
+		System.out.println("둘레 : " + b);
+		
+		System.out.printf("넓이 : %.3f", a);
+		System.out.printf("둘레 : %3f", b);
+
+	}
+
+}
