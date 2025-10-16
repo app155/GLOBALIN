@@ -1,0 +1,2 @@
+# java_workspace
+GLOBALIN
