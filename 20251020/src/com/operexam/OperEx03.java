@@ -1,0 +1,27 @@
+package com.operexam;
+
+public class OperEx03 {
+
+	public static void main(String[] args) {
+		
+		int x = 0xAB, y = 0xF;
+		
+		System.out.printf("%X\t %s\n", x, toBinaryString(x));
+		System.out.printf("%X\t %s\n", y, toBinaryString(y));
+		
+		System.out.printf("%X\t %s\n", x & y, toBinaryString(x & y));
+		System.out.printf("%X\t %s\n", x | y, toBinaryString(x | y));
+		System.out.printf("%X\t %s\n", x ^ y, toBinaryString(x ^ y));
+
+	}
+	
+	static String toBinaryString(int x) {
+		
+		String zero = "00000000000000000000000000000000";
+		String tmp = zero + Integer.toBinaryString(x);
+		
+		return tmp.substring(tmp.length() - 32);
+		
+	}
+
+}
