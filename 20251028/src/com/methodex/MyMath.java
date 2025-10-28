@@ -1,0 +1,21 @@
+package com.methodex;
+
+public class MyMath {
+	
+	long add(long a, long b) {
+		return a + b;
+	}
+	
+	long substract(long a, long b) {
+		return a - b;
+	}
+
+	long multiply(long a, long b) {
+		return a * b;
+	}
+
+	double divide(double a, double b) {
+		return a / b;
+	}
+
+}
