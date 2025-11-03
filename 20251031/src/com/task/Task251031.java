@@ -33,8 +33,8 @@ public class Task251031 {
 		// 문 2
 		int[][] arr2 = new int[height][width];
 
-		for (int i = 0; i < height; i++) {
-			for (int j = 0; j < width; j++) {
+		for (int i = 0; i < height; i++) { 
+			for (int j = 0; j < width; j++) { 
 				arr2[i][j] = i % 2 == 0 ? i * width + j + 1 : (i + 1) * width - j;
 				System.out.printf("%d\t", arr2[i][j]);
 			}
