@@ -11,6 +11,10 @@ public class Circle {
 		this.radius = radius;
 	}
 	
+	public float getArea() {
+		return radius *  radius * 3.14f;
+	}
+	
 	public void show() {
 		System.out.printf("(%.1f, %.1f) %d\n", x, y, radius);
 	}

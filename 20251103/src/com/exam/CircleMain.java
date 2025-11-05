@@ -1,7 +1,8 @@
 package com.exam;
+
 import java.util.*;
 
-public class CircleManager {
+public class CircleMain {
 
 	public static void main(String[] args) {
 		
@@ -11,8 +12,6 @@ public class CircleManager {
 		
 		float x, y;
 		int radius;
-		float maxValue = 0;
-		Circle max = null;
 		
 		for (int i = 0; i < circles.length; i++) {
 			System.out.print("x y radius 입력: ");
@@ -22,18 +21,7 @@ public class CircleManager {
 			radius = sc.nextInt();
 			
 			circles[i] = new Circle(x, y, radius);
-			
-			if (circles[i].getArea() > maxValue) {
-				maxValue = circles[i].getArea();
-				max = circles[i];
-			}
 		}
-		
-		for (int i = 0; i < circles.length; i++) {
-			circles[i].show();
-		}
-		
-		max.show();
 
 	}
 
