@@ -13,4 +13,9 @@
     <fullyQualifiedTypeName name="com.internalex.OuterExam.InnerEx"/>
     <fullyQualifiedTypeName name="java.awt.Frame"/>
     <fullyQualifiedTypeName name="java.awt.Event"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="com.chainedexceptionex.SpaceException"/>
+    <fullyQualifiedTypeName name="com.chainedexceptionex.MemoryException"/>
+    <fullyQualifiedTypeName name="com.chainedexceptionex.InstallException"/>
+    <fullyQualifiedTypeName name="com.inherexam.Km2Mile"/>
 </qualifiedTypeNameHistroy>
