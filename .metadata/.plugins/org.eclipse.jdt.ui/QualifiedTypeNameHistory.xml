@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="com.methodexam.MethodExam01"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.exam.Dictionary"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
     <fullyQualifiedTypeName name="com.internalex.InnerEx01"/>
@@ -19,4 +18,7 @@
     <fullyQualifiedTypeName name="com.chainedexceptionex.InstallException"/>
     <fullyQualifiedTypeName name="com.inherexam.Km2Mile"/>
     <fullyQualifiedTypeName name="com.inherexam.ColorPointEx"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
 </qualifiedTypeNameHistroy>
