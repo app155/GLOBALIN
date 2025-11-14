@@ -18,7 +18,8 @@
     <fullyQualifiedTypeName name="com.chainedexceptionex.InstallException"/>
     <fullyQualifiedTypeName name="com.inherexam.Km2Mile"/>
     <fullyQualifiedTypeName name="com.inherexam.ColorPointEx"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

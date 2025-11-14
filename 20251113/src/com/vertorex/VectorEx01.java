@@ -1,0 +1,33 @@
+package com.vertorex;
+import java.util.*;
+
+public class VectorEx01 {
+
+	public static void main(String[] args) {
+		Vector<String> v = new Vector<>(5);
+		
+		v.add("1");
+		v.add("2");
+		v.add("3");
+		
+		print(v);
+		
+		v.trimToSize();
+		print(v);
+		
+		v.ensureCapacity(6);
+		print(v);
+		v.setSize(7);
+		print(v);
+		v.clear();
+		print(v);
+
+	}
+	
+	public static void print(Vector<String> v) {
+		System.out.println(v);
+		System.out.println("size: " + v.size());
+		System.out.println("cap: " + v.capacity());
+	}
+
+}
